@@ -1,0 +1,69 @@
+.background{
+    background: linear-gradient(#6730ff, #4015ff);
+    height: 400px;
+    width: 300px;
+    border-radius: 40px;
+    padding: 0 20px;
+}
+
+.alingItems{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-weight: bold;
+    color: antiquewhite;
+    opacity: 50%;
+}
+.containerPuntuation{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;background: linear-gradient(#392498,#5623ff);
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    gap:20px
+}
+.puntuation1{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 60px;
+    height: 60px;
+    color: white;
+    white-space: nowrap;
+}
+.puntuation2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: auto;
+    height: 20px;
+    font-size: 20px;
+    color: white;
+    opacity: 50%;
+}
+.title2{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    margin: 10;
+}
+.description{
+    color: white;
+    opacity: 50%;
+    text-align: center;
+    margin: 0;
+}
